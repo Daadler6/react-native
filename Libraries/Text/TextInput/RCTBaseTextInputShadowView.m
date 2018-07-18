@@ -111,6 +111,7 @@
 {
   _text = text;
   _previousAttributedText = _localAttributedText;
+  [self dirtyLayout];
 }
 
 #pragma mark - RCTUIManagerObserver
